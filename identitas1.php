@@ -1,7 +1,7 @@
 <?php
 class orang {
 public $nama;
-public agama;
+public $agama;
 public $kelas;
 public $status;
 
