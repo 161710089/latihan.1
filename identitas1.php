@@ -1,14 +1,14 @@
 <?php
 class orang {
 public $nama;
-public $ttl;
+public agama;
 public $kelas;
 public $status;
 
-public function __construct($nama,$ttl,$kelas,$status)
+public function __construct($nama,$agama,$kelas,$status)
 {
 $this->nama =$nama;
-$this->ttl =$ttl;
+$this->agama =$agama;
 $this->kelas =$kelas;
 $this->status =$status;
 }
@@ -20,9 +20,9 @@ public function get_nama()
 }
 
 
-public function get_ttl()
+public function get_agama()
 {
-	return $this->ttl;
+	return $this->agama;
 }
 
 
